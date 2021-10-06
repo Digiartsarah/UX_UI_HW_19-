@@ -81,43 +81,25 @@ ul {
 .flexContainer {
    display: flex;
   flex-direction: column;
+  align-items: center;
 
 }
 .flexContainerBox {
   width: 33%;
 
 }
-.grid-container {
-  display: grid;
-}
-.grid-container {
-  display: inline-grid;
-}
 
-.Project1 {
+.workGrid {
+  background-color: #ffffff;
+  
   display: grid;
-
-}
-.Project2 {
-  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 500px 500px 500px;
+  grid-template-areas: 
+    'Project1 Project1image'
+    'Project2 Project2image'
+    'Project3 Project3image';
 
 }
-Project3 {
-  display: grid;
 
-}
-.grid-container {
-  display: grid;
-  grid-template-columns: 35% auto auto auto;
-  grid-gap: 10
-  px;
-  background-color: #141414;
-  padding: 10px;
-}
 
-.grid-container > div {
-  background-color: rgba(177, 177, 177, 0.8);
-  text-align: center;
-  padding: 5px 0;
-  font-size: 30px;
-}
